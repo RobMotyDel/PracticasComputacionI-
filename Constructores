@@ -1,3 +1,24 @@
-#Destructor
+# Destructor
 Siempre que se crea un constructor debemos de crear un destructor, esto para evitar el almacen de datos en memoria que ya no necesitemos. 
-La palabra clabe de un destructor para que funcione es "delete".
+La palabra clabe de un destructor para que funcione es "delete". 
+
+# Operador Ternario
+Un operador ternario conjunta un condicional if... then ...else en la misma linea.
+Es muy util para obtener una notación compacta. Un ejemplo es:
+int main(){
+  int n1 = 5, n2 = 10, max;
+  max = (n1 > n2) ? n1 : n2;
+  
+  cout << "The largest number between " << n1 << " and " << n2 << " is " << max;
+  //since n2 is bigger than n1 
+}
+
+# Manejo de Excepsiones 
+El manejo de errores en tiempo de ejecución se puede lograr a través del uso de excepsiones, para este fin se emplea en C++ las instrucciones try/catch
+
+  try{
+  //code may cause error
+  }catch(error){
+  //code to handle
+  }
+Se puede usar la palabra reservada throw para producir una excepcion
