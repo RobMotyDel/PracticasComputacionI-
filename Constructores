@@ -1,2 +1,3 @@
 #Destructor
-Siempre que se crea un constructor debemos de crear un destructor, esto para evitar el almacen de datos en memoria que ya no necesitemos: La palabra clabe de un destructor para que funcione es "delete".
+Siempre que se crea un constructor debemos de crear un destructor, esto para evitar el almacen de datos en memoria que ya no necesitemos. 
+La palabra clabe de un destructor para que funcione es "delete".
